@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR1g0004/SBCK/v1
+canonical_location: https://kanripo.org/bkk/KR1g0004/SBCK/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 公是先生七經小傳
+  date: '2015-09-11 23:42:44.718613'
+  source:
+    repository: kanripo
+    path: KR1g0004
+  edition:
+    short: SBCK
+    label: 【四部叢刊】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR1g0004_001-SBCK.yaml, hash: 'sha256:9ce4eab640b4865c19c1d5f0ad4a4ba7c755f00ae935dca70fc411854fb049ce'}
+  - {seq: 2, filename: KR1g0004_002-SBCK.yaml, hash: 'sha256:b6bec95b0e0912eed313bb7b5f4475b2ccbfae6a43ace3c088356c8732af0ef6'}
+  - {seq: 3, filename: KR1g0004_003-SBCK.yaml, hash: 'sha256:4963d991541fa5ffee03e7f11952ba54a16462755c286cf228d951bc8f599c63'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR1g0004_001-SBCK.markers.yaml, hash: 'sha256:f07de3cda73d9e43c12e87d176726171c2a6147e07452dd116faaf3d18b0d887'}
+  - {seq: 2, role: markers, filename: assets/KR1g0004_002-SBCK.markers.yaml, hash: 'sha256:f700c1609e6b3840197012a74ac4442c3d7f43c9576e611bc8cf480d3645b727'}
+  - {seq: 3, role: markers, filename: assets/KR1g0004_003-SBCK.markers.yaml, hash: 'sha256:0935fee9c4ec00ca354eb49acf319de8206755b0636b42b2f40f3cba9dd084f2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR1g0004_SBCK_001-1a
+    span:
+    - body
+    - 0
+    - 7168
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR1g0004_SBCK_002-1a
+    span:
+    - body
+    - 0
+    - 8805
+  label: juan 002
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR1g0004_SBCK_003-1a
+    span:
+    - body
+    - 0
+    - 7521
+  label: juan 003
+  type: section
+  level: 1
+hash: sha256:30dae08ff5bdcefd2acd45cd374180af51991d968b2a5e96433969e24e1de56f

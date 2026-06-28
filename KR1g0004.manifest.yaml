@@ -1,0 +1,66 @@
+canonical_identifier: bkk:krp/KR1g0004/v1
+canonical_location: https://kanripo.org/bkk/KR1g0004/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 公是先生七經小傳
+  date: '2015-09-11 23:42:44.718613'
+  source:
+    repository: kanripo
+    path: KR1g0004
+  base_edition: SBCK
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: SBCK
+  label: 【四部叢刊】
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 1, filename: KR1g0004_001.yaml, hash: 'sha256:f45e778d6579c4c31b6893a39a39951d326b60549069f7c549a06501c2adcceb'}
+  - {seq: 2, filename: KR1g0004_002.yaml, hash: 'sha256:0619858f8c4c35122bd5c5b87302cea7de11451ade84042ae19310fe873460ea'}
+  - {seq: 3, filename: KR1g0004_003.yaml, hash: 'sha256:7c8b27c1172e2c6d00f6eb087cb547e227ad179f91b4818ef25eac630fae3abd'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR1g0004_001.markers.yaml, hash: 'sha256:68a3921781f90e00951224e2cdc1c6c29649070116707dbd64a05f2e81ec6797'}
+  - {seq: 2, role: markers, filename: assets/KR1g0004_002.markers.yaml, hash: 'sha256:05c2fe1e1026142237a5319b45d4c4700d2d58b93392e50f3f66c47b893de480'}
+  - {seq: 3, role: markers, filename: assets/KR1g0004_003.markers.yaml, hash: 'sha256:1be049a07544d2c2f07643866debda48707af41c383aa342bb490be9e09d1704'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR1g0004_SBCK_001-1a
+    span:
+    - body
+    - 0
+    - 7168
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR1g0004_SBCK_002-1a
+    span:
+    - body
+    - 0
+    - 8805
+  label: juan 002
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR1g0004_SBCK_003-1a
+    span:
+    - body
+    - 0
+    - 7521
+  label: juan 003
+  type: section
+  level: 1
+hash: sha256:0a192896c081a3ecf3e9f3de6dd342be41f682b2a6a3237c4296270098de612a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
